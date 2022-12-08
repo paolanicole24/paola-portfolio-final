@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: montserrat;
+	background-color: #FFFFFF;
+	margin: 0;
+	overflow:visible;
+}
+/* Container */
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+/* Header */
+header {
+	width: 100%;
+	background-color: #B3B3B3;
+	border-bottom: 1px solid #D5DADC;
+	border-top: 1px solid hsla(0,0%,70%,1.00);
+	align-items: center;
+	height: 100px;
+}
+
+header ul a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+header ul a:hover{
+	color: #282828;
+	border-bottom: outset;
+	border-bottom-width: medium;
+	
+}
+
+header .topnav ul{
+	margin-top: -80px;
+	float: right;
+	width: 540px;
+	height: 50px;
+	margin-right: 130px;
+	margin-bottom: 20px;
+	display: block;
+	
+	
+}
+
+header .topnav ul li{
+	float: right;
+	display: block;
+	align-items: center;
+	margin:30px;
+	color: hsla(0,0%,21%,1.00);
+	margin-top: 20px;
+	padding-left: 25px;
+	font-family: montserrat;
+	font-weight: bold;
+}
+.menu ul li{
+	text-align: center;
+	display: block;
+	align-items: center;
+	align-content: center;
+	margin-top: 30px;
+	
+}
+
+.logo {
+	color: #282828;
+	font-weight:bold;
+	margin-left: 30px;
+	letter-spacing: 1px;
+	margin-right: auto;
+	text-align: left;
+	line-height: 2em;
+	font-size: 22px;
+	font-family: futura;
+	width:280px;
+}
+
+
+.about{
+	text-align: center;
+	font-size: 24px;
+	color:#282828;
+	width: 76%;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 35px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 4%;
+}
+
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 4px;
+}
+
+.banner {
+	background-color: #FFFFFF;
+	background-image: url("images/banner home portfolio 13-01.svg");
+	width: auto;
+	height: 783px;
+	background-repeat: no-repeat;
+}
+
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+
+.button a{
+	text-decoration: none;
+	color: #FFFFFF
+}
+.button:hover {
+	background-color: #282828;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+footer .copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	margin-top: 0;
+	font-size: 12px;
+	font-family: montserrat;
+}
+

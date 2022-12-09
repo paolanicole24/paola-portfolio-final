@@ -39,7 +39,7 @@ header .topnav ul{
 	float: right;
 	width: 540px;
 	height: 50px;
-	margin-right: 130px;
+	margin-right: 80px;
 	margin-bottom: 20px;
 	display: block;
 	
@@ -50,12 +50,12 @@ header .topnav ul li{
 	float: right;
 	display: block;
 	align-items: center;
-	margin:30px;
 	color: hsla(0,0%,21%,1.00);
 	margin-top: 20px;
-	padding-left: 25px;
+	padding-left: 60px;
 	font-family: montserrat;
 	font-weight: bold;
+	
 }
 .menu ul li{
 	text-align: center;

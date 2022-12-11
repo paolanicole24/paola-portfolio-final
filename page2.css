@@ -1,7 +1,9 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800;900&family=Nunito+Sans:wght@600;700;800;900&display=swap');
 /* CSS Document */
 body {
-	font-family: montserrat;
+	font-family: "montserrat", sans-serif;
 	background-color: #FFFFFF;
 	margin: 0;
 }
@@ -54,7 +56,7 @@ header .topnav ul li{
 	margin-top: 20px;
 	padding-left: 60px;
 	font-family: montserrat;
-	font-weight: bold;
+	font-weight: 800;
 	
 }
 .menu ul li{
@@ -66,14 +68,14 @@ header .topnav ul li{
 }
 .logo {
 	color: #282828;
-	font-weight:bold;
+	font-weight:800;
 	margin-left: 30px;
 	letter-spacing: 1px;
 	margin-right: auto;
 	text-align: left;
 	line-height: 2em;
 	font-size: 22px;
-	font-family:futura;
+	font-family:montserrat;
 	width:280px;
 }
 .hero_header {
@@ -81,6 +83,8 @@ header .topnav ul li{
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;
+	font-family: montserrat;
+	font-weight: 100;
 }
 /* About Section */
 .text_column {
@@ -98,8 +102,8 @@ header .topnav ul li{
 	margin-top: 40px;
 	margin-bottom: 20px;
 	text-align: center;
-	font-family: futura;
-	font-weight: bold;
+	font-family: montserrat;
+	font-weight: 800;
 	font-size: 24px;
 	color: #282828
 	
@@ -139,8 +143,8 @@ header .topnav ul li{
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-family: futura;
-	font-weight:900;
+	font-family: montserrat;
+	font-weight:600;
 }
 .gallery .thumbnail .tag{
 	margin-top: 5px;
@@ -199,12 +203,12 @@ header .topnav ul li{
 	vertical-align: middle;
 	border-radius: 0px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 800;
 	letter-spacing: 2px;
 	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
 	transition: all 0.3s linear;
-	font-family: futura;
+	font-family: montserrat;
 }
 
 .button a{
@@ -223,7 +227,7 @@ header .topnav ul li{
 	background-color: #717070;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	font-weight: lighter;
+	font-weight: 100;
 	letter-spacing: 2px;
 	border-top-width: 2px;
 	font-size: 12px;
@@ -250,6 +254,7 @@ footer {
 	padding-right: 20px;
 	font-family: montserrat;
 	font-size: 15px;
+	font-weight: 100;
 }
 
 /* Mobile */

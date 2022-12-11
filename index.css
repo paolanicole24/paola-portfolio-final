@@ -104,10 +104,10 @@ header .topnav ul li{
 
 .banner {
 	background-color: #FFFFFF;
-	background-image: url("images/banner home portfolio 16-01.svg");
+	background-image: url("images/banner home portfolio 17-01.svg");
 	background-size: cover;
 	width: auto;
-	height: 783px;
+	height: 100vh;
 	background-repeat: no-repeat;
 }
 

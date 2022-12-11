@@ -206,6 +206,11 @@ header .topnav ul li{
 	transition: all 0.3s linear;
 	font-family: futura;
 }
+
+.button a{
+	text-decoration:none;
+	color: #FFFFFF;
+}
 .button:hover {
 	background-color: #282828;
 	color: #FFFFFF;

@@ -113,14 +113,13 @@ header .topnav ul li{
 	height: 550px;
 	background-color: hsl(0,0%,70%,1.00);
 	border-radius:8px;
-	margin: calc(50-220px) auto;
+	margin:auto;
 	padding: 20px 30px;
 	max-width: calc(100vw -40px);
 	box-sizing:border-box;
 	font-family: montserrat;
 	font-weight: 100;
-	margin-top: 5%;
-	margin-left: 35%;
+	margin-top: 8%;
 }
 
 h2{
